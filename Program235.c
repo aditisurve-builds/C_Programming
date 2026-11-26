@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+int main()
+{
+    char Arr[100];
+
+    printf("Enter a String :\n");
+    //scanf("%s",Arr); 
+
+    fgets(Arr,sizeof(Arr),stdin);
+    
+    printf("Entered String is : %s\n",Arr);
+
+    return EXIT_SUCCESS;
+}
